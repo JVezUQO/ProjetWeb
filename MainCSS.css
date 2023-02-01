@@ -1,0 +1,54 @@
+
+
+.totalbody{
+    display: grid;
+    background-color: cornflowerblue;    
+    height: 98vh;
+    grid-template-rows: 1fr 6fr;
+    gap: 2vh;
+}
+
+.centre{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 15px;
+}
+
+.receptionbody{
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+
+.mainbody{
+    height: fit-content;
+    min-height: 100%;
+    background-color: burlywood;
+}
+
+.top{
+    height: auto;
+    max-height: 100px;
+    min-height: 80px;
+    background-color: brown;
+}
+
+html{
+   
+    height: 100%;
+    margin: 0px;
+}
+
+.receptionloader{
+    width: 100%;
+    height: 100%;
+}
+
+.listeemailloader{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+}
