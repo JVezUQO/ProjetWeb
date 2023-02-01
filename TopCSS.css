@@ -1,0 +1,13 @@
+.barrerecherche{
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left:5%;
+    translate: (-5%,-35%);
+}
+
+.searchimage{
+    width: 30px;
+    height: 30px;
+
+}
