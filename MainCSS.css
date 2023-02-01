@@ -52,3 +52,11 @@ body{
     height: 100%;
     margin: 0px;
 }
+
+.barrerecherche{
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left:5%;
+    translate: (-5%,-35%);
+}
