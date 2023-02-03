@@ -15,7 +15,13 @@
   grid-row-start: 2;
   grid-row-end: 11;
 }
-
+.top {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  background-color: aliceblue;
+  height: fit-content;
+  width: 100%;
+}
 .listebody {
   height: fit-content;
   min-height: 100%;
@@ -24,14 +30,6 @@
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 11;
-}
-
-.top {
-  height: auto;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  background-color: black;
-  max-height: 200px;
 }
 
 html {
@@ -52,69 +50,4 @@ html {
 body {
   height: 100%;
   margin: 0px;
-}
-
-input {
-  all: unset;
-  font: 16px system-ui;
-  font-family: Rubik, sans-serif;
-  color: #fff;
-  height: 100%;
-  width: 25%;
-  padding: 6px 10px;
-  border: 3px;
-  border-color: #fff;
-}
-.top > button {
-  position: relative;
-  top: 13%;
-  left: 17%;
-  background-image: black;
-  border: 3;
-  border-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
-  box-sizing: border-box;
-  color: #ffffff;
-  font-family: Rubik, sans-serif;
-  font-size: 20px;
-  justify-content: center;
-  line-height: 1em;
-  height: 100%;
-  max-width: 100%;
-  min-width: 140px;
-  padding: 3px;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  cursor: pointer;
-}
-.top > button:active,
-.top > button:hover {
-  outline: 0;
-}
-.top > button span {
-  background-color: rgb(0, 0, 0);
-  border: 3;
-  border-color: black;
-  padding: 13px 25px;
-  border-radius: 8px;
-  width: 100%;
-  height: 100%;
-  transition: 100ms;
-}
-
-.top > button:hover span {
-  background: white;
-  color: black;
-  border-radius: 8px;
-}
-
-@media (min-width: 768px) {
-  .top > button {
-    font-size: 24px;
-    min-width: 96px;
-  }
 }
