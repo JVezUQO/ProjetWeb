@@ -1,5 +1,5 @@
 .Rbody{
-    height: 99vh;
+    height: 99vh ;
     width: 100%;
     display: grid;
     grid-gap: 1vh;
@@ -9,7 +9,7 @@
 }
 
 .titre{
-    background-color:darkgoldenrod;
+    /*background-color:darkgoldenrod;*/
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
@@ -19,7 +19,7 @@
 }
 
 .adresse{    
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -29,18 +29,56 @@
 
 
 .content{    
-    background-color: blue;
+    /*background-color: blue;*/
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 9;
     min-height: 100%;
+    border-radius: 25px;
 }
 
 .buttonplacer{
-    grid-column-start:4 ;
-    grid-column-end:4 ;
-    grid-row-start:2 ;
-    grid-row-end:2 ;
+    grid-column-start:5 ;
+    grid-column-end:5 ;
+    grid-row-start:9 ;
+    grid-row-end:9 ;
+    height: 10vh;
+    width: 10vh;
+    font-size: 1vh;
+}
 
+body{
+    overflow-y: hidden;
+}
+
+.titreboxclass{
+    height: 10vh;
+    max-height: 90%;
+    min-width: 100%;
+    font-size: 5vh;
+    /*background-color: grey;*/
+    border: 0;
+    border-radius: 25px;
+}
+
+.receiverboxclass{
+    height: 8vh;
+    max-height: 90%;
+    min-width: 100%;
+    font-size: 4vh;
+    /*background-color: grey;*/
+    border: 0;
+    border-radius: 25px;
+}
+
+.contentboxclass{
+    height: 60vh;
+    max-height: 90%;
+    min-width: 100%;
+    font-size: 4vh;    
+    /*background-color: grey;*/
+    border: 0;
+    border-radius: 25px;
+    text-align: left;
 }
