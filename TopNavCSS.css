@@ -5,7 +5,7 @@
   background-image: rgb(248, 248, 248);
   border: 3;
   border-color: black;
-
+  border-radius: 5px;
   box-shadow: 10px 5px 5px rgb(0, 0, 0);
   box-sizing: border-box;
   color: #000000;
@@ -37,6 +37,7 @@
 .top > button:hover span {
   background: rgb(0, 0, 0);
   color: rgb(252, 251, 251);
+  border-radius: 5px;
 }
 
 @media (min-width: 500px) {
