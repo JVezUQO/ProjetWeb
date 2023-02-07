@@ -23,7 +23,9 @@ body{
     grid-column-end: 20;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: yellow;
+    padding-left: 4%;
+    font-size: 50px;
+    
 
 }
 .grid-item2 {
@@ -32,7 +34,7 @@ body{
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: blue;
+    
 }
 .grid-item3 {
     display: flex;
@@ -41,7 +43,7 @@ body{
     grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: gray;
+    
 }
 .grid-item3 input[type=text]{
     width: 100%;
@@ -49,8 +51,8 @@ body{
     padding: 6px;
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
+    
+    
     font-size: 17px;
     border-radius: 5px;
     color:blue;
@@ -60,14 +62,14 @@ body{
     grid-column-end: 20;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: green;
+    
 }
 .grid-item5 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 10;
-    background-color: red;
+    
 }
 .grid-item6 {
     grid-column-start: 2;
@@ -77,6 +79,10 @@ body{
     
     height: 100%;
     overflow: auto;
+    padding: 10px;
+    border-color: #888;
+    border-radius: 5px;
+    border-style: solid;
 }
 .grid-item6 ul{
     
@@ -109,7 +115,7 @@ body{
     grid-column-end: 12;
     grid-row-start: 3;
     grid-row-end: 10;
-    background-color: yellow;
+    
 }
 
 /* width */
@@ -137,28 +143,28 @@ body{
     grid-column-end: 20;
     grid-row-start: 3;
     grid-row-end: 3;
-    background-color: gray;
+    
 }
 .grid-item9 {
     grid-column-start: 12;
     grid-column-end: 20;
     grid-row-start: 4;
     grid-row-end: 4;
-    background-color: violet;
+    
 }
 .grid-item10 {
     grid-column-start: 12;
     grid-column-end: 20;
     grid-row-start: 5;
     grid-row-end: 5;
-    background-color: blue;
+    
 }
 .grid-item11 {
     grid-column-start: 12;
     grid-column-end: 20;
     grid-row-start: 6;
     grid-row-end: 6;
-    background-color:purple;
+    
 }
 
 .grid-item12 {
@@ -166,21 +172,21 @@ body{
     grid-column-end: 20;
     grid-row-start: 7;
     grid-row-end: 7;
-    background-color: blue;
+    
 }
 .grid-item13 {
     grid-column-start: 12;
     grid-column-end: 20;
     grid-row-start: 8;
     grid-row-end: 10;
-    background-color: gainsboro;
+    
 }
 .grid-item14 {
     grid-column-start: 1;
     grid-column-end: 20;
     grid-row-start: 10;
     grid-row-end: 10;
-    background-color: violet;
+    
 }
 
 

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="carnetAdresse.css">
+    <script src="carnetAdresse.js"></script>
     <body>
         <div class="grid-container">
-            <div class="grid-item1">1</div>
-            <div class="grid-item2">2</div>
+            <div class="grid-item1">Carnet d'addresse</div>
+            <div class="grid-item2"></div>
             <div class="grid-item3">
                 <input type="text" placeholder="Search.." class="">
             </div>
-            <div class="grid-item4">4</div>
-            <div class="grid-item5">5</div>
+            <div class="grid-item4"></div>
+            <div class="grid-item5"></div>
             <div class="grid-item6">
-                <ul class="list-addresse">
-                    <li>bob</li>
+                <ul class="list-addresse" onclick="alert('hi')">
+                    <li onclick="updateList()">bob</li>
                     <li>bob</li>
                     <li>bob</li>
                     <li>bob</li>
@@ -37,14 +38,22 @@
                     <li>bob</li>
                 </ul>
             </div>
-            <div class="grid-item7">7</div>
-            <div class="grid-item8">8</div>
-            <div class="grid-item9">9</div>
-            <div class="grid-item10">10</div>
-            <div class="grid-item11">11</div>
-            <div class="grid-item12">12</div>
-            <div class="grid-item13">13</div>
-            <div class="grid-item14">14</div>
+            <div class="grid-item7"></div>
+            <div class="grid-item8">
+                <button>
+                    +
+                </button>
+            </div>
+            <div class="grid-item9"></div>
+            <div class="grid-item10">
+                <button>
+                    -
+                </button>
+            </div>
+            <div class="grid-item11"></div>
+            <div class="grid-item12"></div>
+            <div class="grid-item13"></div>
+            <div class="grid-item14"></div>
             
         </div>
     </body>
