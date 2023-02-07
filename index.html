@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="MainCSS.css">   
+    <link rel="stylesheet" href="TopNavCSS.css" />
+    <script src="Scripts/TopNav.js"></script>
 <title>
     Titre
     </title>    
@@ -11,15 +13,37 @@
        <div class="totalbody">
         
             <div class="top">
-              <iframe src="TopNav.html" frameBorder="0" class="topnavloader"></iframe>
+                
+                    <div class="top">
+                      <button type="button" class="carnet-button" onclick="switchpagecarnet()">
+                        <span class="text">Carnet d'Adresse</span>
+                      </button>
+                      <br />
+                      <br />
+                      <button type="button" class="composerbutton" onclick="switchpageemail()">
+                        <span class="text">Composer un courriel</span>
+                      </button>
+                      <br />
+                      <br />
+                      <input
+                        type="text"
+                        placeholder="Recherchez"
+                        name="search"
+                        placeholder="Search..."
+                        class="barre-recherche"
+                      />
+                    </div>
             </div>
                 <div class="listebody">
                     <iframe src="ListeEmail.html" frameBorder="0" class="listeemailloader" ></iframe>
                 </div>
-                    
-                    <div class="receptionbody">
-                        <iframe src="carnetAdresse.html" frameBorder="0" class="receptionloader" ></iframe>
+                    <div class="receptionbody" style="display: none;">
+                        <iframe src="carnetAdresse.html" frameBorder="0" class="carnetAdresseloader"></iframe>
                     </div>
+                    <div class="receptionbody" style="display: none;">
+                        <iframe src="Reception.html" frameBorder="0" class="receptionloader" ></iframe>
+                    </div>
+                    
                 </div>
             </div>
         </div>

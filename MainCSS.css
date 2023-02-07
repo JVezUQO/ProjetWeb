@@ -8,14 +8,14 @@
 }
 
 .receptionbody {
-  background-color: blueviolet;
+  background-color: white;
   box-sizing: border-box;
   grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 11;
   overflow: hidden;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 .top {
   grid-column-start: 1;
@@ -23,7 +23,7 @@
   background-color: cornflowerblue;
   height: fit-content;
   width: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 .listebody {
   height: 100%;
@@ -34,7 +34,7 @@
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 11;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 html {
@@ -51,7 +51,10 @@ html {
   width: 100%;
   height: 100%;
 }
-
+.carnetAdresseloader{
+  width: 100%;
+  height: 100%;
+}
 body {
   height: 100%;
   margin: 0px;

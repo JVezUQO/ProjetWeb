@@ -1,8 +1,14 @@
-function updateList(){
+function updateList(selected){
     myElement = document.getElementsByClassName("list-addresse")[0];
-    console.log(myElement.getClass())
+    
     for (const child of myElement.children) {
-        console.log(child.getName())
+        if (child === selected){
+            child.className = "selected";
+        }
+        else{
+            child.className = "";
+        }
+        
     }
     
     
