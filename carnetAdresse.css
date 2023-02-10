@@ -1,9 +1,15 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: rgb(48, 49, 54);
     overflow: hidden;
 }
+
+html{
+    background-color: rgb(48, 49, 54);
+}
+
+
 .grid-container {
     
     
@@ -18,7 +24,7 @@ body{
     
 }
 .selected {
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(48, 49, 54);
     border-radius: 5px;
     
 }
