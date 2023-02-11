@@ -1,45 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <script src="listeEmail.js"></script>
+  <script src="listeEmail.js" defer></script>
   <link rel="stylesheet" href="ListeEmailCSS.css" />
-  <div>
-    <input
-      type="search"
-      placeholder="Recherchez"
-      name="search"
-      placeholder="Search..."
-      class="barre-recherche"
-    />
-  </div>
+
   <body>
-    <ul id="button-list" class="button-list">
-      <li>
-        <div class="email" onclick="addButton()">
-          <ul id="email-titre" class="email-titre">
-            <li class="liste-Titre">Titre</li>
-            <li class="liste-Contact">Contact</li>
-            <li class="liste-ligneCourriel">premiere ligne du courriel...</li>
-          </ul>
-        </div>
-      </li>
-      <li>
-        <div class="email" onclick="addButton()">
-          <ul id="email-titre" class="email-titre">
-            <li class="liste-Titre">Titre</li>
-            <li class="liste-Contact">Contact</li>
-            <li class="liste-ligneCourriel">premiere ligne du courriel...</li>
-          </ul>
-        </div>
-      </li>
-      <li>
-        <div class="email" onclick="addButton()">
-          <ul id="email-titre" class="email-titre">
-            <li class="liste-Titre">Titre</li>
-            <li class="liste-Contact">Contact</li>
-            <li class="liste-ligneCourriel">premiere ligne du courriel...</li>
-          </ul>
-        </div>
-      </li>
-    </ul>
+    <div class="search-wrapper">
+      <label for="search"></label>
+      <input type="search" id="search" data-search />
+    </div>
+    <div class="user-cards" data-user-cards-container></div>
+    <template data-user-template>
+      <div class="card" onclick="temp()">
+        <div class="header" data-header></div>
+        <div class="body" data-body></div>
+      </div>
+    </template>
   </body>
 </html>
