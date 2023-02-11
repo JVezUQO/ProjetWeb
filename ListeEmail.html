@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <script src="Scripts/listeEmail.js"></script>
+  <script src="listeEmail.js"></script>
   <link rel="stylesheet" href="ListeEmailCSS.css" />
-  <div><b</div>
+  <div>
+    <input
+      type="search"
+      placeholder="Recherchez"
+      name="search"
+      placeholder="Search..."
+      class="barre-recherche"
+    />
+  </div>
   <body>
     <ul id="button-list" class="button-list">
       <li>
-        <div class="email" onclick="open(this)">
+        <div class="email" onclick="addButton()">
           <ul id="email-titre" class="email-titre">
             <li class="liste-Titre">Titre</li>
             <li class="liste-Contact">Contact</li>
@@ -15,7 +23,7 @@
         </div>
       </li>
       <li>
-        <div class="email" onclick="open(this)">
+        <div class="email" onclick="addButton()">
           <ul id="email-titre" class="email-titre">
             <li class="liste-Titre">Titre</li>
             <li class="liste-Contact">Contact</li>
@@ -24,7 +32,7 @@
         </div>
       </li>
       <li>
-        <div class="email" onclick="open(this)">
+        <div class="email" onclick="addButton()">
           <ul id="email-titre" class="email-titre">
             <li class="liste-Titre">Titre</li>
             <li class="liste-Contact">Contact</li>
