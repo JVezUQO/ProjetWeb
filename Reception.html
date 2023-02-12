@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="ReceptionCSS.css">
+    <link rel="stylesheet" href="ReceptionCSS.css"/>
+    <script src="Scripts/envoi.js"></script>
     <body>
         <div class="Rbody">
             <div class="titre">
-                <input type="text" placeholder="Titre" name="titrebox" class="titreboxclass">
+                <input type="text" placeholder="Titre" name="titrebox" class="titreboxclass" id="titreid" value="">
             </div>
             <div class="adresse">
-                <input type="text" placeholder="Destinataire" name="receiverbox" class="receiverboxclass">
+                <input type="text" placeholder="Destinataire" name="receiverbox" class="receiverboxclass" id="receiverid" value="">
             </div>
             <div class="content">
-                <input type=textarea rows="7" cols="50"  name="contentbox" class="contentboxclass"></textarea>
+                <input type=textarea rows="7" cols="50"  name="contentbox" class="contentboxclass" id="contentid" value=""></textarea>
             <div class="buttonplacer">
-                <button type="submit" class="envoibutton"> Envoyez</button>
+                <button type="button" class="envoibutton"  onclick="send()"> Envoyez</button>
             </div>
         </div>
     </body>
