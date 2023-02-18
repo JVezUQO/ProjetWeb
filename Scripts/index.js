@@ -5,7 +5,7 @@ function moduleload(){
         const content = html;
         console.log(content);
    
-        const importeur=document.getElementsByTagName("liste-email").innerHTML = content;
+        const importeur=document.getElementsById("liste-email").innerHTML = content;
     })
 
     }
