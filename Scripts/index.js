@@ -6,13 +6,13 @@ function moduleload(){
         const importeur=document.getElementById("liste-email").innerHTML = contenthtml;
     })
 
-    fetch("listeEmailCSS.css")
+    fetch("ListeEmailCSS.css")
     .then(response => response.text())
     .then(css => {
         const contentcss = document.createElement("listecss");
         console.log(contentcss);
         contentcss.innerHTML = css;
-        document.getElementById("liste-email").appendChild(contentcss);
+        document.html.appendChild(contentcss);
     })
     
     
