@@ -11,7 +11,7 @@ function moduleload(){
     .then(css => {
         const contentcss = document.createElement("listecss");
         console.log(contentcss);
-        listecss.innerHTML = css;
+        contentcss.innerHTML = css;
         document.body.appendChild(contentcss);
     })
     
