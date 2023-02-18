@@ -6,6 +6,16 @@ function moduleload(){
         const importeur=document.getElementById("liste-email").innerHTML = contenthtml;
     })
 
+    fetch("listeEmailCSS.css")
+    .then(response => response.text())
+    .then(css => {
+        const contentcss = document.createElement("listecss");
+        console.log(contentcss);
+        contentcss.innerHTML = css;
+        document.getElementById("liste-email").appendChild(contentcss);
+    })
+    
+    
     fetch("listeEmail.js")
     .then(response => response.text())
     .then(js => {
@@ -16,7 +26,5 @@ function moduleload(){
         eval(contentjs);
     })
     
-
-
     }
 
