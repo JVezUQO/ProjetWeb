@@ -12,7 +12,8 @@ function moduleload(){
         const contentjs = document.createElement("listejs");
         console.log(contentjs);
         contentjs.innerHTML = js;
-        document.getElementById("liste-email").appendChild(contentjs);
+        //document.getElementById("liste-email").appendChild(contentjs);
+        eval(contentjs);
     })
     
 
