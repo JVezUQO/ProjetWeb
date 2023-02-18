@@ -4,7 +4,7 @@ function moduleload(){
     .then(html => {
         const contenthtml = html;
         console.log(contenthtml);
-        const importeur=document.getElementById("liste-email").innerHTML = contenthtml;
+        const importeurhtml=document.getElementById("liste-email").innerHTML = contenthtml;
     })
 
     fetch("ListeEmailCSS.css")
@@ -13,7 +13,7 @@ function moduleload(){
         const contentcss = css;
         console.log(contentcss);
         contentcss.innerHTML = css;
-        document.body.appendChild(contentcss);
+        const importeurcss=document.getElementById("liste-email").innerHTML = contentcss;
     })
     
     
