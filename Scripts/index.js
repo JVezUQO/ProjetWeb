@@ -3,7 +3,7 @@ function moduleload(){
     .then(response => response.text())
     .then(html => {
         const contenthtml = html;
-        console.log(contentcss);
+        console.log(contenthtml);
         const importeur=document.getElementById("liste-email").innerHTML = contenthtml;
     })
 
