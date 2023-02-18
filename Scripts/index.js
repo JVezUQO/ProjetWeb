@@ -1,6 +1,6 @@
 function moduleload(){
     fetch("ListeEmail.html")
-    .then(response => response.text())
+    .then(responsehtml => responsehtml.text())
     .then(html => {
         const contenthtml = html;
         console.log(contenthtml);
@@ -8,7 +8,7 @@ function moduleload(){
     })
 
     fetch("ListeEmailCSS.css")
-    .then(response => response.text())
+    .then(responsecss => responsecss.text())
     .then(css => {
         const contentcss = document.createElement("listecss");
         console.log(contentcss);
@@ -18,7 +18,7 @@ function moduleload(){
     
     
     fetch("listeEmail.js")
-    .then(response => response.text())
+    .then(responsejs => responsejs.text())
     .then(js => {
         const contentjs = document.createElement("listejs");
         console.log(contentjs);
