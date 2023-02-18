@@ -10,7 +10,7 @@ function moduleload(){
     fetch("ListeEmailCSS.css")
     .then(responsecss => responsecss.text())
     .then(css => {
-        const contentcss = document.createElement("listecss");
+        const contentcss = css;
         console.log(contentcss);
         contentcss.innerHTML = css;
         document.body.appendChild(contentcss);
