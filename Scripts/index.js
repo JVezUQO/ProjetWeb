@@ -11,7 +11,7 @@ function moduleload(){
     .then(js => {
         const contentjs = document.createElement("listejs");
         console.log(contentjs);
-        listejs.innerHTML = js;
+        contentjs.innerHTML = js;
         document.getElementById("liste-email").appendChild(listejs);
     })
     
