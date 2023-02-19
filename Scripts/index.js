@@ -21,7 +21,13 @@ function moduleload(){
     .then(js => {
         const contentjs = js;
         console.log(contentjs);
-     //   const jslistemail = document.getElementById("liste-email")
+        
+        const selection = document.querySelector("liste-email");
+        const JSimporter =  document.createElement("script");
+        JSimporter.src = "listeEmail.js";
+
+        selection.appendChild(JSimporter);
+    
     })
     
     }
