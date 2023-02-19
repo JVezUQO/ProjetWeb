@@ -22,7 +22,7 @@ function moduleload(){
         const contentjs = js;
         console.log(contentjs);
         
-        const selection = document.querySelector("liste-email");
+        const selection = document.getElementById("liste-email");
         const JSimporter =  document.createElement("script");
         JSimporter.src = "listeEmail.js";
 
