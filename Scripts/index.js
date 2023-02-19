@@ -12,9 +12,7 @@ function moduleload(){
     .then(css => {
         const contentcss = css;
         console.log(contentcss);
-        const stylelisteemail = document.createElement("style");
-        stylelisteemail.innerHTML = css;
-        document.body.appendChild(stylelisteemail);
+        const stylelisteemail = document.getElementById("liste-email").style = contentcss;
     })
     
     
