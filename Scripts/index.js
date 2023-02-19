@@ -23,8 +23,9 @@ function moduleload(){
     .then(js => {
         const contentjs = document.createElement("listejs");
         console.log(contentjs);
+        const jslistemail = document.createElement("scripts")
         contentjs.innerHTML = js;
-        //document.getElementById("liste-email").appendChild(contentjs);
+        document.body.appendChild(jslistemail);
         eval(contentjs);
     })
     
