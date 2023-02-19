@@ -13,8 +13,8 @@ function moduleload(){
         const contentcss = css;
         console.log(contentcss);
         const stylelisteemail = document.createElement("style");
-        contentcss.innerHTML = css;
-        document.body.appendChild(contentcss);
+        stylelisteemail.innerHTML = css;
+        document.body.appendChild(stylelisteemail);
     })
     
     
