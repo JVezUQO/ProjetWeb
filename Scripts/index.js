@@ -3,7 +3,6 @@ function moduleload(){
     .then(responsecss => responsecss.text())
     .then(css => {
         const contentcss = css;
-        //console.log(contentcss);
         const stylelisteemail = document.getElementById("liste-email").style = contentcss;
     })
 
