@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="MainCSS.css">   
     <link rel="stylesheet" href="TopNavCSS.css" />
     <link rel="stylesheet" href="star.css" />
+    <script src="CustomPages.js"></script>
     <script src="Scripts/TopNav.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
@@ -45,6 +46,7 @@
             <div class="top">
                 
                     <div class="top">
+                      
                       <button type="button" class="blue-button" onclick="switchpagecarnet()">
                         <span class="text">Carnet d'Adresse</span>
                       </button>
@@ -57,7 +59,7 @@
                     <iframe src="ListeEmail.html" frameBorder="0" class="listeemailloader" ></iframe>
                 </div>
                     <div class="receptionbody" style="display: none;">
-                        <iframe src="carnetAdresse.html" frameBorder="0" class="carnetAdresseloader"></iframe>
+                      <carnet-d-adresse class="carnetAdresseloader"></carnet-d-adresse>
                     </div>  
                     <div class="receptionbody" style="display: none;">
                         <iframe src="Reception.html" frameBorder="0" class="receptionloader" ></iframe>
