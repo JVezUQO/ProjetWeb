@@ -1,93 +1,88 @@
-.Rbody{
-    
-    height: 99vh ;
-    width: 100%;
-    display: grid;
-    grid-gap: 1vh;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10,1fr );
-
+.Rbody {
+  height: 99vh;
+  width: 100%;
+  display: grid;
+  grid-gap: 1vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
 }
 
-.titre{
-    /*background-color:darkgoldenrod;*/
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    max-height: 75%;
-    
+.titre {
+  /*background-color:darkgoldenrod;*/
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  max-height: 75%;
 }
 
-.adresse{    
-    /*background-color: chartreuse;*/
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    min-height: 75;
+.adresse {
+  /*background-color: chartreuse;*/
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  min-height: 75;
 }
 
-
-.content{    
-    /*background-color: blue;*/
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 9;
-    min-height: 100%;
-    border-radius: 25px;
+.content {
+  /*background-color: blue;*/
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 9;
+  min-height: 100%;
+  border-radius: 25px;
 }
 
-.buttonplacer{
-    grid-column-start:5 ;
-    grid-column-end:5 ;
-    grid-row-start:9 ;
-    grid-row-end:9 ;
-    height: 10vh;
-    width: 10vh;
-    font-size: 1vh;
+.buttonplacer {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 9;
+  height: 10vh;
+  width: 10vh;
+  font-size: 1vh;
 }
 
-body{
-    overflow-y: hidden;
+body {
+  overflow-y: hidden;
 }
 
-.titreboxclass{
-    height: 10vh;
-    max-height: 90%;
-    min-width: 100%;
-    font-size: 5vh;
-    background-color:  rgb(48,49,54);
-    border: 0;
-    border-radius: 25px;
-    color: antiquewhite;
+.titreboxclass {
+  height: 10vh;
+  max-height: 90%;
+  min-width: 100%;
+  font-size: 5vh;
+  background-color: rgb(48, 49, 54);
+  border: 0;
+  border-radius: 25px;
+  color: antiquewhite;
 }
 
-.receiverboxclass{
-    height: 8vh;
-    max-height: 90%;
-    min-width: 100%;
-    font-size: 4vh;
-    background-color:  rgb(48,49,54);
-    color: antiquewhite;
-    border: 0;
-    border-radius: 25px;
+.receiverboxclass {
+  height: 8vh;
+  max-height: 90%;
+  min-width: 100%;
+  font-size: 4vh;
+  background-color: rgb(48, 49, 54);
+  color: antiquewhite;
+  border: 0;
+  border-radius: 25px;
 }
 
-.contentboxclass{
-    height: 60vh;
-    max-height: 90%;
-    min-width: 100%;
-    font-size: 4vh;    
-    background-color:  rgb(48,49,54);
-    color: antiquewhite;
-    border: 0;
-    border-radius: 25px;
-    text-align: left;
+.contentboxclass {
+  height: 60vh;
+  max-height: 90%;
+  min-width: 100%;
+  font-size: 4vh;
+  background-color: rgb(48, 49, 54);
+  color: antiquewhite;
+  border: 0;
+  border-radius: 25px;
+  text-align: left;
 }
 .envoibutton {
   height: 45px !important;
   width: 250px !important;
-  
 }
