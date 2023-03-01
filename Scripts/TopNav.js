@@ -1,3 +1,9 @@
+if (localStorage.nombre==null){
+  localStorage.nombre=0;
+  let emailist= [];
+  localStorage.email=emailist;
+}
+
 function switchpagecarnet() {
   carnet = document.getElementsByClassName("carnetAdresseloader")[0];
   reception = document.getElementsByClassName("receptionloader")[0];
